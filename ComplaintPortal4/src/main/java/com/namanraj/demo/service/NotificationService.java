@@ -24,9 +24,9 @@ public class NotificationService
 		SimpleMailMessage mail = new SimpleMailMessage();
 		String password = passwordGenerator();
 		mail.setTo(student.getEmail());
-		mail.setFrom("naman11396@gmail.com");
+		mail.setFrom("amang8100@gmail.com");
 		mail.setSubject("Complaint Portal Password");
-		mail.setText("Hi " + student.getRoll() + "Your password is: " + password + "Please Change"
+		mail.setText("Hi " + student.getRoll() + "Your password is: " +"<b>"+ password + ". " + "</b>" + "Please Change"
 				     + "the password by click this link http://localhost:8083/change ");
 		
 		javaMailSender.send(mail);
