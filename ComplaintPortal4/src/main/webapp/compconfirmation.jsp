@@ -26,9 +26,8 @@
 <h1>Hello <%= (String)session.getAttribute("username") %> </h1>
 
 <div id = "container">
-Hi ${complaint.roll} Your Complaint is successfully added.
-Your Id reference no. is ${complaint.id}.
-Keep this Id to track the status of the complaint
+ ${complaint.roll} , Your Complaint is successfully added.
+
 </div>
 
 </body>
