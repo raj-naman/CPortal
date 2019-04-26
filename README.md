@@ -1,2 +1,2 @@
-# CPortal
+# CompPortal
 #
